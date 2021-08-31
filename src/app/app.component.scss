@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0%;
+
+  text-align: center;
+  background-size: 100%;
+}
+.flex {
+  text-align: center;
+}
+.text {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  font-size: 32pt;
+  line-height: 36pt;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.highlight {
+  color: burlywood;
+}
+
+.button {
+  padding: 12px 50px 12px 20px;
+  margin-bottom: 53px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+}
+.button .mdi {
+  top: 16px;
+  vertical-align: middle;
+  position: absolute;
+  right: 15px;
+  transition: transform 0.3s;
+}
+.mdi {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  color: white;
+}
+.mdi-arrow-right::before {
+  content: "\F054";
+}
+.button:hover {
+  background-color: grey;
+  color: white;
+}
