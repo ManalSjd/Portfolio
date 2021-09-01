@@ -56,3 +56,28 @@ body {
   background-color: grey;
   color: white;
 }
+section {
+  line-height: 18pt;
+  padding: 100px 0 130px 0;
+  display: block;
+}
+nav {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+  display: inline;
+  list-style-type: none;
+}
+nav .link-wrap {
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 14px;
+  display: block;
+  text-decoration: none;
+}
